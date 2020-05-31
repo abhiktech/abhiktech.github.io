@@ -1,0 +1,65 @@
+<!--Index Page for sudoku solver-->
+<!DOCTYPE HTML>
+  <html style="overflow-x: hidden"><!--Prevents horizontal scrolling-->
+    <head>
+      <meta charset="utf-8"/>
+      <title>Sudoku Solver: Abhik Mazumder</title>
+      <link rel="icon" href="sudokulogo.jpg"/>
+      <!--All of the dependencies-->
+      <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+      <link rel="stylesheet" type="text/css" href="styles.css"/>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script type="text/javascript" src="global.js"></script>
+      <script type="text/javascript" src="userInterface.js"></script>
+      <script type="text/javascript" src="sudokuSet.js"></script>
+      <script type="text/javascript" src="sudokuEvaluate.js"></script>
+      <script type="text/javascript" src="sudokuSize.js"></script>
+      <script type="text/javascript" src="backTracking.js"></script>
+      <script type="text/javascript" src="bruteForce.js"></script>
+      <script type="text/javascript" src="crook.js"></script>
+      <script type="text/javascript" src="nakedSingle.js"></script>
+      <script type="text/javascript" src="loneRanger.js"></script>
+      <script type="text/javascript" src="validElement.js"></script>
+      <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+      <script type="text/javascript" src="graph.js"></script>
+    </head>
+    <body>
+      <center>
+      <pre>
+        <div class="headerbar"><!--Page header-->
+          <p style="font-size:50px;"> Sudoku Solver : By Abhik Mazumder <a href="https://www.linkedin.com/in/abhik-mazumder-46b03619a/" target="_blank"><i class="fa fa-linkedin-square" style="font-size:50px; color:white"></i></a></p>
+        </div>
+      <table class="sudokuTable">
+      </table>
+      <script>
+        newSize(9);//Initially creating a 9x9 sudoku.
+      </script>
+      <div id="graphsidebar" style="overflow-y: hidden"><!--Left Sidebar-->
+        <pre>
+        <button id ="cross" onclick="closeGraphSideBar()">&#129032;Close</button><!--Closes the sidebar-->
+        <div id="algograph"></div>
+        <p id = "sidebartext">Runtime : <span id="runtime"></span> ms
+Rating : <span id="starRating"></span><p>
+        </pre>
+      </div>
+      <div class="sidebar" style="overflow-y: hidden"><!--Right Sidebar-->
+        <div id="sidebartext">Solve Using:</div>
+        <button id="algobuttons" onclick="evaluateSudoku(2)">Backtracking Algorithm</button><!--Algorithms-->
+        <button id="algobuttons" onclick="evaluateSudoku(3)">Crook's Algorithm</button>
+        <button id="algobuttons" onclick="evaluateSudoku(4)">Naked Singles Algorithm</button>
+        <button id="algobuttons" onclick="evaluateSudoku(5)">Lone Ranger Algorithm</button>
+        <button id="algobuttons" onclick="evaluateSudoku(1)">Brute Force Algorithm</button>
+        <button id="comparebutton" onclick="evaluateSudoku(6)">Compare Algorithms</button>
+        <div id="sidebartext">Set Size</div><!--Size Setting-->
+        <button id="sizebuttons" onclick="newSize(4)">4 x 4</button> <button id="sizebuttons" onclick="newSize(9)">9 x 9</button> <button id="sizebuttons" onclick="newSize(16)">16 x 16</button> <button id="sizebuttons" onclick="resetSudoku()">&#x21bb;</button>
+        <div id="sidebartext">Keypad</div><!--Keypad-->
+<button id="keypadbuttons" onclick="buttonUpdateSudoku(1)">1</button> <button id="keypadbuttons" onclick="buttonUpdateSudoku(2)">2</button> <button id="keypadbuttons" onclick="buttonUpdateSudoku(3)">3</button>
+<button id="keypadbuttons" onclick="buttonUpdateSudoku(4)">4</button> <button id="keypadbuttons" onclick="buttonUpdateSudoku(5)">5</button> <button id="keypadbuttons" onclick="buttonUpdateSudoku(6)">6</button>
+<button id="keypadbuttons" onclick="buttonUpdateSudoku(7)">7</button> <button id="keypadbuttons" onclick="buttonUpdateSudoku(8)">8</button> <button id="keypadbuttons" onclick="buttonUpdateSudoku(9)">9</button>
+<button id="keypadbuttons" onclick="buttonUpdateSudoku(0)">0</button> <button id="keypadbuttons" onclick="buttonUpdateSudoku('u')">&#8593;</button> <button id="keypadbuttons" onclick="buttonUpdateSudoku('b')">&#10060;</button>
+<button id="keypadbuttons" onclick="buttonUpdateSudoku('l')">&#8592;</button> <button id="keypadbuttons" onclick="buttonUpdateSudoku('d')">&#8595;</button> <button id="keypadbuttons" onclick="buttonUpdateSudoku('r')">&#8594;</button>
+      </div>
+    </pre>
+  </center>
+</body>
+  </html>
