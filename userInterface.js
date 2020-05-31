@@ -1,4 +1,5 @@
-//One of the most important files which handles the user interface and manages user interactivity
+/*One of the most important files which handles the user interface and manages user interactivity and enchances
+  functionality.*/
 
 var cursorpos = 1;//Defines cursor position
 
