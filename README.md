@@ -21,16 +21,19 @@ Objectives of this Project:
 - To graphically analyze and compare the preformance of the different algorithms for the given sudoku puzzle.
 
 Components of this Projects:
+
 Static Viewable Content_
 - index.htm : The page that the user views on the browser
 - styles.css : Responsible for making the HTML elements visually appealing
 - background.png, sidebackground.jpg, sudokulogo.jpg : Viewable images
+
 Interactive User Interface_
 - userInterface.js : Provides user interactivity and relevant functionality
 - sudokuSize.js : Dynamically sets sudoku size based on user's choice
 - sudokuSet.js : Resests sudoku table or sets the solved sudoku table
 - sudokuEvaluate.js : Responsible for extracting user input, validating it, and invoking algorithm solving functions or displaying 
   relevant messsages.
+  
 Algorithm Implementaion_
 - bruteForce.js : Implementation of brute force algorithm
 - backTracking.js : Implementation of back tracking algorithm
@@ -39,6 +42,7 @@ Algorithm Implementaion_
 - loneRanger.js : Implementation of lone ranger's algorithm
 - validElement.js : Evaulates whether the current value abides by sudoku's constraints
 - global.js : Important global entities
+
 Graph Implementaion_
 - graph.js : Implements and manipulates individual graphs, bar charts, and the left sidebar
 
