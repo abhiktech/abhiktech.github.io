@@ -1,6 +1,7 @@
 # abhiktech.github.io
 
 Motivation Behind this Project:
+
 I have been fascinated by sudoku puzzles ever since I was a child. My first interaction with the world of sudoku was when my mother
 got a new Nokia phone which had a sudoku game pre-installed in it. I remember spending hours after hours trying to solve the first sudoku
 puzzle with no progress. Frustrated, I stopped playing the game for a while. Years later, I came across another sudoku puzzle and after 
