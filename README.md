@@ -47,6 +47,8 @@ Algorithm Implementaion_
 Graph Implementaion_
 - graph.js : Implements and manipulates individual graphs, bar charts, and the left sidebar
 
+Tested on Google Chrome, Microsoft Edge.
+
 I hope you find this project interesting. For any bugs/issues/recommendations contact me at : 
 - abhikmaz@umich.edu
 - https://www.linkedin.com/in/abhik-mazumder-46b03619a/
