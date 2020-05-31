@@ -207,7 +207,9 @@ function buttonUpdateSudoku(val){
         if(document.getElementById(command).value * 10 + val <= 16){
           document.getElementById(command).value = document.getElementById(command).value * 10 + val;
         } else {
+          if(document.getElementById(command).value.length != 2){
             document.getElementById(command).value = val;
+          }
         }
       }
     }
