@@ -16,10 +16,10 @@ Tools and Technologies used:
 - Google Charts Packages
 
 Objectives of this Project:
-- To create an interactive, user-friendly, single-page application.
-- To allow users to solve sudoku puzzles of any level of difficulty using 5 different models.
-- To ensure that the algorithms are correctly implemented and are as space and time efficient as possible.
-- To graphically analyze and compare the preformance of the different algorithms for the given sudoku puzzle.
+- To create an interactive, user-friendly, single-page application
+- To allow users to solve sudoku puzzles of any level of difficulty using 5 different models
+- To ensure that the algorithms are correctly implemented and are as space and time efficient as possible
+- To graphically analyze and compare the preformance of the different algorithms for the given sudoku puzzle
 
 Components of this Projects:
 
@@ -33,7 +33,7 @@ Interactive User Interface_
 - sudokuSize.js : Dynamically sets sudoku size based on user's choice
 - sudokuSet.js : Resests sudoku table or sets the solved sudoku table
 - sudokuEvaluate.js : Responsible for extracting user input, validating it, and invoking algorithm solving functions or displaying 
-  relevant messsages.
+  relevant messsages
   
 Algorithm Implementaion_
 - bruteForce.js : Implementation of brute force algorithm
