@@ -10,7 +10,7 @@ demonstration of my affinity towards sudoku puzzles and algorithmic thinking.
 
 Tools and Technologies used:
 - HTML5
-- CSS
+- CSS3
 - Javascript
 - JQuery Libraries
 - Google Charts Packages
