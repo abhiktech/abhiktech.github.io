@@ -2,7 +2,7 @@
   possible cell in a certain row, column, and subgrid that can store a certain value without violating any of the
   constraints. If yes, store that value. After iterating through every value for every row (then column and subgrid)
   if required, use crook's algorithm.
-  Advantages : Redusces number of steps for crook's algorithm
+  Advantages : Reduces number of steps for crook's algorithm
   Disadvantages : All of crook's along with additional time consumption
 */
 
