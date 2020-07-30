@@ -1,4 +1,4 @@
-# abhiktech.github.io
+# sudoku-solver
 
 Motivation Behind this Project:
 
