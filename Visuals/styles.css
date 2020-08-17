@@ -1,8 +1,8 @@
 /*Deines styling proerties for the web application*/
 body {
 background-image: url('background.png');
-background-size: cover;
-background-repeat: no-repeat;
+background-size: 100%;
+background-repeat: cover;
 font-family:Tisa
 }
 
@@ -26,10 +26,13 @@ border:solid 1px;
 width:20%;
 table-layout: fixed;
 border-collapse: collapse;
+position: relative;
+right: 10vw;
 }
+
 .sudokuTable td {
- height: 70px;
- width: 50px;
+ height: 3vw;
+ width: 3vw;
  text-align: center;
  word-wrap: break-word;
  overflow: hidden;
@@ -48,7 +51,7 @@ input[type=number]::-webkit-outer-spin-button {
   width:100%;
   height:100%;
   text-align: center;
-  font-size: 30px;
+  font-size: 2vw;
   font-weight: bold;
  }
 
@@ -56,10 +59,10 @@ input[type=number]::-webkit-outer-spin-button {
    display: inline-block;
    position: relative;
    right: 54px;
-   width: 295px;
-   height: 43px;
+   width: 19.9vw;
+   height: 6vh;
    background-color: #85144b;
-   font-size: 25px;
+   font-size: 1.5vw;
    color: white;
    border-radius: 5px;
 }
@@ -67,9 +70,11 @@ input[type=number]::-webkit-outer-spin-button {
 #comparebutton{
   padding: 5px;
   position: relative;
-  right: 25px;
+  right: 54px;
+  width: 19.9vw;
+  height: 6vh;
   background-color: #DDDDDD;
-  font-size: 25px;
+  font-size: 1.5vw;
   color: white;
   margin-top: 10px;
   border-radius: 5px;
@@ -78,8 +83,10 @@ input[type=number]::-webkit-outer-spin-button {
 
 #sizebuttons{
    position: relative;
-   height: 35px;
+   height: 4vh;
+   width: 3vw;
    right: 30px;
+   font-size: 0.65vw;
    background-color: #85144b;
    color: white;
    border-radius: 5px;
@@ -90,15 +97,15 @@ input[type=number]::-webkit-outer-spin-button {
   color: black;
   position: relative;
   bottom: 10px;
-  height: 45px;
-  width: 40px;
-  font-size: 20px;
+  height: 4vh;
+  width: 2vw;
+  font-size: 1vw;
   padding: 5px;
 }
 
 #sidebartext{
   margin-top: 0px;
-  font-size: 30px;
+  font-size: 2vw;
   color: white;
 }
 
@@ -126,8 +133,8 @@ input[type=number]::-webkit-outer-spin-button {
   background-image: url('sidebackground.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 300px; /* Set the width of the sidebar */
+  height: 100vh; /* Full-height: remove this if you want "auto" height */
+  width: 20vw; /* Set the width of the sidebar */
   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
@@ -159,7 +166,7 @@ input[type=number]::-webkit-outer-spin-button {
   position: relative;
   right: 40px;
   text-decoration: none;
-  font-size: 30px;
+  font-size: 2vw;
   color:white;
   background-color: #85144b;
   border-radius: 5px;

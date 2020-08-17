@@ -15,21 +15,22 @@ function openGraphSideBar() {
   var len = table[0].rows.length;
   //Sets the dimensions of the sidebar and the graph/bar chart
   if(len == 16){
-    document.getElementById("graphsidebar").style.width = "340px";
+    document.getElementById("graphsidebar").style.width = "23vw";
     document.getElementById("graphsidebar").style.height = "100%";
-    document.getElementById("algograph").style.width = "340px";
-    document.getElementById("algograph").style.height = "380px";
+    document.getElementById("algograph").style.width = "20vw";
+    document.getElementById("algograph").style.height = "20vw";
   } else if(len == 9){
-    document.getElementById("graphsidebar").style.width = "470px";
+    document.getElementById("graphsidebar").style.width = "23vw";
     document.getElementById("graphsidebar").style.height = "100%";
-    document.getElementById("algograph").style.width = "470px";
-    document.getElementById("algograph").style.height = "460px";
+    document.getElementById("algograph").style.width = "20vw";
+    document.getElementById("algograph").style.height = "25vw";
   } else {
-    document.getElementById("graphsidebar").style.width = "470px";
+    document.getElementById("graphsidebar").style.width = "23vw";
     document.getElementById("graphsidebar").style.height = "100%";
-    document.getElementById("algograph").style.width = "470px";
-    document.getElementById("algograph").style.height = "460px";
+    document.getElementById("algograph").style.width = "20vw";
+    document.getElementById("algograph").style.height = "20vw";
   }
+  document.getElementById("algograph").style.left = "0px";
 }
 
 //Set the width of the sidebar to 0 and the left margin of the page content to 0
@@ -106,7 +107,8 @@ function runtime(){
       + '<span class="fa fa-star "></span>' + '<span class="fa fa-star"></span>' + '<span class="fa fa-star"></span>';
     }
     document.getElementById("runtime").innerHTML = rtime;
-    document.getElementById("starRating").innerHTML = rating;
+    document.getElementById("runtime").style.fontSize = "2vw";
+    document.getElementById("starRating").innerHTML = rating;    
   } else {
     document.getElementById("sidebartext").style.display = "none";
   }
