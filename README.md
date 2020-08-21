@@ -1,5 +1,7 @@
 # sudoku-solver
 
+Project link : https://abhiktech.github.io/sudoku-solver/
+
 Motivation Behind this Project:
 
 I have been fascinated by sudoku puzzles ever since I was a child. My first interaction with the world of sudoku was when my mother
