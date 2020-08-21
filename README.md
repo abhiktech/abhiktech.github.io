@@ -1,6 +1,6 @@
 # sudoku-solver
 
-Project link : https://abhiktech.github.io/sudoku-solver/
+Website link : https://abhiktech.github.io/sudoku-solver/
 
 Motivation Behind this Project:
 
